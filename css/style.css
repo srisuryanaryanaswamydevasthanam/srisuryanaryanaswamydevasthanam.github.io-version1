@@ -1,0 +1,171 @@
+/* header  start */
+header{
+     background-color: yellow;
+     /* google api */
+     font-family: 'Ramabhadra';
+     overflow: hidden;
+}
+.animate__animated.animate__pulse {
+    -webkit-animation: pulse 2s linear infinite 0s;
+    -moz-animation: pulse 2s linear infinite 0s;
+    -o-animation: pulse 2s linear infinite 0s;
+    -ms-animation: pulse 2s linear infinite 0s;
+    animation: pulse 2s linear infinite 0s;
+
+}
+
+.responsive {
+    width: 80%;
+    max-height: 200px;
+    /* max-width: 200px; */
+    height: auto;
+}
+/* header  end */
+/* body telugu language font start */
+.telugu{
+    font-family: 'Sree+Krushnadevaraya';
+    
+}
+/* body telugu language font end */
+
+/* nav bar backgrounc color */
+.bg-warning {
+    background-color: rgb(255, 193, 7) !important;
+}
+
+
+/* menu bar start */
+/* nav bar link clolor */
+/* .navbar-nav>li>a {
+    color: #d02b2b !important;
+} */
+
+/* nav bar link color with hover(blue) */
+/*nav-item a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-size: 200% 100%;
+background-position: 100%;
+transition: background-position 275ms ease;
+}
+.nav-item a:hover {
+    background-position: 0 100%;
+  }
+   */
+
+
+/* nav bar link color with hover(blue) */
+.nav-item a {
+    position: relative;
+    display: inline-block;
+    /* font-size: 2em; */
+    font-size: 20px;
+    font-weight: 600;
+    
+    color: royalblue;
+    overflow: hidden;
+background: linear-gradient(to right,  royalblue 50%,rgb(225, 65, 65) 50%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-size: 200% 100%;
+background-position: 100%;
+transition: background-position 275ms ease;
+}
+.nav-item a:hover {
+    background-position: 0 100%;
+  }
+  /* menu bar end */
+  /* card section start */
+  .homecard{
+      height: auto;
+      width: 300px;
+      background-color: #fff;
+      position: relative;
+      margin-top: 10%;
+      padding: 55px 10px 20px 10px;
+      text-align: center;
+      transition: 340ms ease;
+      cursor: pointer;
+  }
+  .homecard img{
+      position: absolute;
+      transform: translate(-50%);
+      top: -50px;
+      height: 97px;
+      width: 97px;
+      left: 50%;
+  }
+  .homecard h2{
+      font-size: 25px;
+      padding-bottom: 10px;
+  }
+  .homecard p{
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      color: rgb(41, 40, 40)  ;
+
+  }
+  .homecard a{
+      font-size: 13px;
+      position: relative;
+      opacity: 0;
+      text-decoration: none;
+      color: black  ;
+      font-weight: 500;
+    
+  }
+  .homecard:hover>a{
+      left: 100px;
+      opacity: 1;
+      transition: 250ms ease;
+    
+  }
+  .homecard:hover{
+      transform: scale(1.05);
+      box-shadow: 5px 5px 20px rgba(red 0, green 0, blue 0, alpha 0.6);
+     
+  }
+
+  .Contactcard {
+    box-shadow: 0 4px 8px 0 grey;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+}
+
+.Contacttitle {
+    color: grey;
+    font-size: 18px;
+}
+
+.Contactcard:hover {
+    transform: scale(1.04);
+    box-shadow: 5px 5px 20px rgba(red 0, green 0, blue 0, alpha 0.6);
+
+}
+  /* card section end */
+  
+  /* Quick Links */
+  .quickLinks{
+   
+     font-size: 20px;
+  }
+
+/* footer text color */
+.footer-text-color{
+    /* color: #febf02 !important; */
+    color: yellow !important;
+}
+
