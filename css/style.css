@@ -18,6 +18,7 @@ header{
     width: 80%;
     max-height: 200px;
     /* max-width: 200px; */
+  
     height: auto;
 }
 /* header  end */
@@ -72,7 +73,7 @@ transition: background-position 275ms ease;
     
     color: royalblue;
     overflow: hidden;
-background: linear-gradient(to right,  royalblue 50%,rgb(225, 65, 65) 50%);
+background: linear-gradient(to right,  royalblue 50%,rgb(245, 6, 6) 50%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
