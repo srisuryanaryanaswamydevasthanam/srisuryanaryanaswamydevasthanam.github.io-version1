@@ -13,9 +13,23 @@ header{
     animation: pulse 2s linear infinite 0s;
 
 }
+/* media quries for header chaging to image */
+@media screen and (max-width: 700px) {
+    header {
+        display: none;
+    }
 
+   
+}
+
+@media screen and (min-width: 700px) {
+    img.header-image {
+        display: none;
+    }
+
+}
 .responsive {
-    width: 80%;
+    width: 100%;
     max-height: 200px;
     /* max-width: 200px; */
   
@@ -25,6 +39,8 @@ header{
 /* body telugu language font start */
 .telugu{
     font-family: 'Sree+Krushnadevaraya';
+    font-size: 18px;
+    /* font-family: 'Mallanna', sans-serif; */
     
 }
 /* body telugu language font end */
@@ -73,7 +89,7 @@ transition: background-position 275ms ease;
     
     color: royalblue;
     overflow: hidden;
-background: linear-gradient(to right,  royalblue 50%,rgb(245, 6, 6) 50%);
+background: linear-gradient(to right,  royalblue 50%,rgb(225, 65, 65) 50%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -110,10 +126,10 @@ transition: background-position 275ms ease;
       padding-bottom: 10px;
   }
   .homecard p{
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 500;
       line-height: 20px;
-      color: rgb(41, 40, 40)  ;
+      color: rgb(17, 1, 1)  ;
 
   }
   .homecard a{
