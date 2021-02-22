@@ -102,28 +102,28 @@ transition: background-position 275ms ease;
   }
   /* menu bar end */
   /* card section start */
-  .homecard{
-      height: auto;
-      width: 300px;
-      background-color: #fff;
-      position: relative;
-      margin-top: 10%;
-      padding: 55px 10px 20px 10px;
-      text-align: center;
-      transition: 340ms ease;
-      cursor: pointer;
+  .homecard{    
+    width: auto;
+    background-color: #fff;
+    position: relative;
+    margin-top: 85px;
+    padding: 20px 20px;
+    text-align: center;
+    transition: 340ms ease;
+    cursor: pointer;
+   
   }
   .homecard img{
-      position: absolute;
-      transform: translate(-50%);
-      top: -50px;
-      height: 97px;
-      width: 97px;
-      left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: -13px;
+    height: 97px;
+    width: 97px;
+    left: 50%;
   }
   .homecard h2{
       font-size: 25px;
-      padding-bottom: 10px;
+      padding: 15px;
   }
   .homecard p{
       font-size: 16px;
